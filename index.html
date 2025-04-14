@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Elements Example</title>
+</head>
+<body>
+    <h1>HTML5 Elements Example</h1>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+        <li>Yoruba</li>
+        <li>Hausa</li>
+        <li>Kikuyu</li>
+        <li>Zulu</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Example Image from Pexels" width="300">
+
+    
+<!-- Audio -->
+    <h2>MP3 Audio</h2>
+    <audio controls>
+        <source src="https://trendybeatz.com/download-mp3/59980/wizkid-2-sugar-ft-ayra-starr" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+
+    
+    <!-- Table of Contacts -->
+    <h2>Contacts Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Adewale Sunday</td>
+                <td>No. 21A Main St</td>
+                <td>+2342345670</td>
+                <td>adewale.sunday@example.com</td>
+            </tr>
+            <tr>
+                <td>Kasongo Smith</td>
+                <td>456 Elm St</td>
+                <td>+23487654321</td>
+                <td>kasongo.smith@example.com</td>
+            </tr>
+            <tr>
+                <td>Idi Johnson</td>
+                <td>789 Oak St</td>
+                <td>+23422334455</td>
+                <td>idi.johnson@example.com</td>
+            </tr>
+            <tr>
+                <td>Alimobi James</td>
+                <td>101 Pine St</td>
+                <td>+2343445566</td>
+                <td>alimobi.james@example.com</td>
+            </tr>
+            <tr>
+                <td>Charles Musanga</td>
+                <td>202 Maple St</td>
+                <td>+2344456677</td>
+                <td>charles.musanga.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="/submit" method="post">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="kenya">KENYA</option>
+            <option value="ghana">GHANA</option>
+            <option value="cameroun">CAMEROUN</option>
+            <option value="gabon">GABON</option>
+            <option value="southafrica">SOUTH AFRICA</option>
+            <option value="mali">MALI</option>
+        </select>
+        <br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <br>
+
+        <!-- Checkboxes -->
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
+        <br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</>
